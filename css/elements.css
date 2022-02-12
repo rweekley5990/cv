@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  text-align: center;
+  background: #F9F9F9 ;
+}
+
+.bodyVideos{
+  margin: 0;
+  text-align:center;
+  background: url("../Images/black-1072366.jpg") no-repeat center fixed;
+
+}
+
+p{
+  color: #40514E;
+  font-family: 'Comic Neue', cursive;
+  line-height: 2;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 4rem
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+hr{
+  border-style: none;
+  border-top: dotted 1rem;
+  Color: #C490E4;
+  width: 25rem;
+  margin: 5rem auto;
+}
+
+a{
+    color: #40514E;
+    text-decoration: none;
+}
