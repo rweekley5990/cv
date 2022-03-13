@@ -1,0 +1,281 @@
+
+
+/* tender default color
+Icon: #ef8172
+
+Background: #ff4c68
+
+ */
+
+
+#title{
+background-color: #0033CC;
+color: #fff;
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-weight:900;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+h3{
+font-family: 'Montserrat', sans-serif;
+font-weight:900;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#t-c{
+  padding-bottom: 7%;
+}
+
+
+/* Navigation bar*/
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+#brand:hover{
+  color: #ff4c68;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+
+.nav-link-mine{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+  color: #fff;
+  display: block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link-mine:hover{
+  color: #ff4c68;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* TinDog Image */
+
+.TinDog-Image{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 25%;
+}
+
+.po{
+  position:relative;
+}
+
+.btn-dark:hover{
+  background-color: #484545;
+}
+
+/* features */
+
+#container-features{
+ Padding: 0 1rem;
+}
+
+#features{
+  Text-align: center;
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+.feature-icon{
+  color: #0066FF;
+  transform: scale(300%);
+  padding: 2rem 0;
+}
+
+.feature-icon:hover{
+  color: #0033CC;
+}
+
+.feature-header{
+font-family: 'Montserrat', sans-serif;
+font-weight:700;
+font-size: 1.5rem;
+}
+
+.feature-p{
+  margin: 0 auto;
+  font-size: 1.0rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+  color: #8f8f8f;
+  word-wrap: break-word;
+  width: 80%;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+
+
+text-align: center;
+background-color: #0033CC;
+color: #fff;
+position:relative;
+z-index: 1;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.timage{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+
+#press{
+  text-align: center;
+  background-color: #0033CC;
+  color: #fff;
+  padding-bottom: 3%;
+}
+
+.pimage{
+
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#pricing{
+ padding: 7%;
+ text-align:center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.icon-x{
+  color: red;
+}
+
+.icon-check{
+  color: green;
+}
+
+@media (max-width: 1028px){
+  .TinDog-Image{
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+    right: 25%;
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+#title{
+  text-align:center;
+}
+
+}
+
+
+@media (min-width: 1028px){
+  .TinDog-Image{
+    right: 25%;
+    transform: rotate(25);
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+}
+
+
+
+#cta{
+Text-align: center;
+padding: 7% 15%;
+background-color: #0033CC;
+color: #fff;
+}
+
+
+#footer{
+Text-align: center;
+padding: 7% 15%;
+background-color: #fff;
+}
+
+.iFooter{
+padding: 0 1%;
+}
+
+.pFooter{
+  color: #8f8f8f;
+}
+
+@media (max-width: 1450px){
+
+  .cSize{
+
+    font-size: 2.2rem;
+    transition-property: font-size;
+    transition-duration: 1s;
+    /*transition-delay: 2s;*/
+
+  }
+
+}
+
+
+@media (min-width: 1450px){
+
+  .cSize{
+    transition-property: font-size;
+    transition-duration: 1s;
+    /*transition-delay: 2s;*/
+  }
+
+}
